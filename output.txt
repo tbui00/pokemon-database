@@ -1,0 +1,49 @@
+Script started on Thu 10 Dec 2020 01:55:49 AM HST
+]0;buit@uhx02:~/homework9[?1034huhx02:/home/b/buit/homework9% ./homework9
+Pokemon Constructor
+Lugia Constructor
+Pokemon Constructor
+Lapras Constructor
+Pokemon Constructor
+Lucario Constructor
+
+Vector Data Container: 
+-----------------------------
+Name of child class: Lugia
+Type: Psychic and Flying
+Height: 521 cm
+
+Name of child class: Lapras
+Type: Ice and Water
+Height: 249 cm
+
+Name of child class: Lucario
+Type: Fighting and Steel
+Height: 119 cm
+-----------------------------
+
+Map Data Container: 
+-----------------------------
+Name of child class: Lugia
+Type: Psychic and Flying
+Height: 521 cm
+
+Name of child class: Lapras
+Type: Ice and Water
+Height: 249 cm
+
+Name of child class: Lucario
+Type: Fighting and Steel
+Height: 119 cm
+-----------------------------
+
+Lugia Destructor
+Pokemon Destructor
+Lapras Destructor
+Pokemon Destructor
+Lucario Destructor
+Pokemon Destructor
+]0;buit@uhx02:~/homework9uhx02:/home/b/buit/homework9% exit
+exit
+
+Script done on Thu 10 Dec 2020 01:55:54 AM HST

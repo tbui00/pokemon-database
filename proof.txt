@@ -1,0 +1,94 @@
+Script started on Thu 10 Dec 2020 01:53:14 AM HST
+]0;buit@uhx02:~/homework9[?1034huhx02:/home/b/buit/homework9% touch *.cpp
+]0;buit@uhx02:~/homework9uhx02:/home/b/buit/homework9% make
+g++ -ansi -pedantic-errors -Wall -c main.cpp	
+g++ -ansi -pedantic-errors -Wall -c Pokemon.cpp
+g++ -ansi -pedantic-errors -Wall -c Lugia.cpp
+g++ -ansi -pedantic-errors -Wall -c Lapras.cpp
+g++ -ansi -pedantic-errors -Wall -c Lucario.cpp
+g++ -o homework9 main.o Pokemon.o Lugia.o Lapras.o Lucario.o
+]0;buit@uhx02:~/homework9uhx02:/home/b/buit/homework9% make
+make: `homework9' is up to date.
+]0;buit@uhx02:~/homework9uhx02:/home/b/buit/homework9% touch main.cpp
+]0;buit@uhx02:~/homework9uhx02:/home/b/buit/homework9% make
+g++ -ansi -pedantic-errors -Wall -c main.cpp	
+g++ -o homework9 main.o Pokemon.o Lugia.o Lapras.o Lucario.o
+]0;buit@uhx02:~/homework9uhx02:/home/b/buit/homework9% make
+make: `homework9' is up to date.
+]0;buit@uhx02:~/homework9uhx02:/home/b/buit/homework9% touch Pokemon.cpp
+]0;buit@uhx02:~/homework9uhx02:/home/b/buit/homework9% make
+g++ -ansi -pedantic-errors -Wall -c Pokemon.cpp
+g++ -o homework9 main.o Pokemon.o Lugia.o Lapras.o Lucario.o
+]0;buit@uhx02:~/homework9uhx02:/home/b/buit/homework9% make
+make: `homework9' is up to date.
+]0;buit@uhx02:~/homework9uhx02:/home/b/buit/homework9% touch Lugia.cpp
+]0;buit@uhx02:~/homework9uhx02:/home/b/buit/homework9% make
+g++ -ansi -pedantic-errors -Wall -c Lugia.cpp
+g++ -o homework9 main.o Pokemon.o Lugia.o Lapras.o Lucario.o
+]0;buit@uhx02:~/homework9uhx02:/home/b/buit/homework9% make
+make: `homework9' is up to date.
+]0;buit@uhx02:~/homework9uhx02:/home/b/buit/homework9% touch P[KLapras.cpp
+]0;buit@uhx02:~/homework9uhx02:/home/b/buit/homework9% make
+g++ -ansi -pedantic-errors -Wall -c Lapras.cpp
+g++ -o homework9 main.o Pokemon.o Lugia.o Lapras.o Lucario.o
+]0;buit@uhx02:~/homework9uhx02:/home/b/buit/homework9% make
+make: `homework9' is up to date.
+]0;buit@uhx02:~/homework9uhx02:/home/b/buit/homework9% touch L[KLucario.cpp
+]0;buit@uhx02:~/homework9uhx02:/home/b/buit/homework9% make
+g++ -ansi -pedantic-errors -Wall -c Lucario.cpp
+g++ -o homework9 main.o Pokemon.o Lugia.o Lapras.o Lucario.o
+]0;buit@uhx02:~/homework9uhx02:/home/b/buit/homework9% make
+make: `homework9' is up to date.
+]0;buit@uhx02:~/homework9uhx02:/home/b/buit/homework9% touch *.o
+]0;buit@uhx02:~/homework9uhx02:/home/b/buit/homework9% make
+g++ -o homework9 main.o Pokemon.o Lugia.o Lapras.o Lucario.o
+]0;buit@uhx02:~/homework9uhx02:/home/b/buit/homework9% make
+make: `homework9' is up to date.
+]0;buit@uhx02:~/homework9uhx02:/home/b/buit/homework9% ./homework9
+Pokemon Constructor
+Lugia Constructor
+Pokemon Constructor
+Lapras Constructor
+Pokemon Constructor
+Lucario Constructor
+
+Vector Data Container: 
+-----------------------------
+Name of child class: Lugia
+Type: Psychic and Flying
+Height: 521 cm
+
+Name of child class: Lapras
+Type: Ice and Water
+Height: 249 cm
+
+Name of child class: Lucario
+Type: Fighting and Steel
+Height: 119 cm
+-----------------------------
+
+Map Data Container: 
+-----------------------------
+Name of child class: Lugia
+Type: Psychic and Flying
+Height: 521 cm
+
+Name of child class: Lapras
+Type: Ice and Water
+Height: 249 cm
+
+Name of child class: Lucario
+Type: Fighting and Steel
+Height: 119 cm
+-----------------------------
+
+Lugia Destructor
+Pokemon Destructor
+Lapras Destructor
+Pokemon Destructor
+Lucario Destructor
+Pokemon Destructor
+]0;buit@uhx02:~/homework9uhx02:/home/b/buit/homework9% exit
+exit
+
+Script done on Thu 10 Dec 2020 01:54:16 AM HST
